@@ -29,13 +29,13 @@ File: Layout CSS
 #header #logo{float:left;}
 #header #logo h1, #header #logo p{font-weight:normal; font-style:normal; text-transform:none;}
 #header #logo h1{font-size:35px; line-height:22px; font-family: 'ZCOOL KuaiLe', cursive;}
-#header #logo p{margin:0; padding:0; font-size:20px;}
+#header #logo p{margin:0; padding:0; font-size:20px;font-family: 'ZCOOL KuaiLe', cursive;}
 
 
 /* Content Area
 ---------------------------------------------------------------------------------------------------------------*/
 #container{padding:40px 0; line-height:1.6em;}
-#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px;}
+#container h1, #container h2, #container h3, #container h4, #container h5, #container h6{margin-bottom:20px;font-family: 'ZCOOL KuaiLe', cursive;}
 #container section{display:block; width:100%; margin:0 0 40px 0; padding:0;}
 #container .last{margin:0;}
 #container .more{text-align:right;}
@@ -68,16 +68,16 @@ File: Layout CSS
 #footer{padding:30px 0; font-size:12px; line-height:1.6em;}
 #footer::after{display:block; visibility:hidden; height:0; clear:both; content:"";}
 
-#footer h2.title{font-size: 20px; margin-bottom:30px; text-transform:none;}
+#footer h2.title{font-size: 20px; margin-bottom:30px; text-transform:none;font-family: 'ZCOOL KuaiLe', cursive;}
 
 /* Blogposts */
 #footer article header, #footer article address, #footer article time, #footer article p{margin:0; padding:0;}
-#footer article p{margin-top:10px;}
+#footer article p{margin-top:10px;font-family: 'Nunito', sans-serif;}
 #footer article .header h2{font-size:14px; font-weight:bold; text-transform:none;}
 #footer article address, #footer article time{font-size:10px; font-style:normal;}
 
 /* Quick Links */
-#footer nav ul li{margin:10px 0 0 0; padding:0 0 10px 0;}
+#footer nav ul li{margin:10px 0 0 0; padding:0 0 10px 0;font-family: 'Nunito', sans-serif;}
 #footer nav ul li:first-child, #footer nav ul li.first{margin-top:0;}
 #footer nav ul li a{padding:0 0 0 10px; background-position:left center; background-repeat:no-repeat;}
 
@@ -101,7 +101,7 @@ File: Layout CSS
 nav ul{margin:0; padding:0; list-style:none;}
 
 /* Top Navigation */
-#header nav{display:block; float:right; margin:0; padding:0; clear:right;}
+#header nav{display:block; float:right; margin:0; padding:0; clear:right;font-family: 'ZCOOL KuaiLe', cursive;}
 #header nav ul{}
 #header nav ul li{display:inline-block; margin-left:10px; text-transform:uppercase;}
 #header nav ul li:first-child{margin-left:0;}
@@ -169,7 +169,7 @@ table tbody tr.dark{}
 #showcase ul li{display:block; position:relative; float:left; width:300px; margin:0 0 30px 30px;}
 #showcase ul li:first-child, #showcase ul li.first{margin-left:0;}
 #showcase ul li figure{}
-#showcase ul li a{display:block; font-size:14px;}
+#showcase ul li a{display:block; font-size:14px;font-family: 'Nunito', sans-serif;}
 #showcase ul li a strong{display:block; position:absolute; bottom:5px; left:5px; width:270px; margin:0; padding:5px 10px; text-align:center; font-weight:normal; text-transform:uppercase;}
 #showcase ul li a:hover strong{display:none;}
 
